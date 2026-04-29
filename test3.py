@@ -1,0 +1,7 @@
+print("Hello, World!")
+print("Hello Git")
+print("first")
+print("Hello GitHub")
+print("object")
+print("123")
+print("456")
