@@ -1,0 +1,9 @@
+name: My First Action
+on: [push] # 只要你 push 代码，它就运行
+
+jobs:
+  say-hello: 
+    runs-on: ubuntu-latest # 给机器人分配一台 Linux 虚拟机
+    steps:
+      - name: Hello World Step
+        run: echo "你好，这是我的第一个 GitHub Action！"
